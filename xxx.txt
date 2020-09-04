@@ -1,0 +1,11 @@
+springboot 
+springcloud
+redis
+ElasticSearch 
+Git
+rabbitmq acticemq 消息中间件
+
+post:发送短信
+http://localhost:8080/api/sms/verifyCode?phone=13528558793&codeType=0
+post:手机登录
+http://localhost:8080/api/user/login/sms?phone=13528558793&sms=
